@@ -1,7 +1,7 @@
 ###############################
 ###########StoneDrop###########
 ######### Wersja: v0.1 ########
-###### Autor: TyranGames ######
+###### Autor: DomCie99 ######
 ###############################
 
 config:
@@ -12,7 +12,7 @@ config:
   datatype: 'flat'
   
   fortune:
-    #Ile itemów na lvl enchantu
+    #Ile itemÃ³w na lvl enchantu
     level1: 2
     level2: 3
     level3: 4
@@ -36,71 +36,71 @@ config:
   
   #Gui
   gui:
-    name: '&8» &6Drop &8»'
+    name: '&8Â» &6Drop &8Â»'
     
     selections:
       drop:
-        name: '&8» &6Drop z kamienia &8»'
+        name: '&8Â» &6Drop z kamienia &8Â»'
         item: STONE
         lore:
-        - '&8» &7Kliknij, aby wyswietlic drop z kamienia'
+        - '&8Â» &7Kliknij, aby wyswietlic drop z kamienia'
         show:
           #Lore kazdego itemu
           #Zmienne: {MINY}, {MAXY}, {CHANCE}, {BIOMES}, {TOOLS}, {FORTUNE}
           lore:
-          - '&8» &7Szansa: &6{CHANCE}'
-          - '&8» &7Wysokosc: &6{MINY}-{MAXY}'
-          - '&8» &7Na biomach: &6{BIOMES}'
-          - '&8» &7Narzedzia: &6{TOOLS}'
-          - '&8» &7Fortuna: &6{FORTUNE}'
-          - '&8» &7Aktywny: &6{STATUS}'
+          - '&8Â» &7Szansa: &6{CHANCE}'
+          - '&8Â» &7Wysokosc: &6{MINY}-{MAXY}'
+          - '&8Â» &7Na biomach: &6{BIOMES}'
+          - '&8Â» &7Narzedzia: &6{TOOLS}'
+          - '&8Â» &7Fortuna: &6{FORTUNE}'
+          - '&8Â» &7Aktywny: &6{STATUS}'
       top:
-        name: '&8» &6Najlepsi gornicy &8»'
+        name: '&8Â» &6Najlepsi gornicy &8Â»'
         item: NETHER_STAR
         lore:
-        - '&8» &7Kliknij, aby wyswtetlic najlepszych gornikow'
+        - '&8Â» &7Kliknij, aby wyswtetlic najlepszych gornikow'
         show:
-          name: '&8» &6{POZYCJA}. &7{NICKNAME}'
+          name: '&8Â» &6{POZYCJA}. &7{NICKNAME}'
           lore:
-          - '&8» &7XP: &6{XP}/{NEED}'
-          - '&8» &7Poziom w gornictwie: &6{LEVEL}'
+          - '&8Â» &7XP: &6{XP}/{NEED}'
+          - '&8Â» &7Poziom w gornictwie: &6{LEVEL}'
       msg:
-        name: '&8» &6Wiadomosci &8»'
+        name: '&8Â» &6Wiadomosci &8Â»'
         item: PAPER
       stats:
-        name: '&8» &6Statystyki &8»' 
+        name: '&8Â» &6Statystyki &8Â»' 
         item: EYE_OF_ENDER
         lore: 
-        - '&8» &7Kliknij, aby wyswietlic statystyki'
+        - '&8Â» &7Kliknij, aby wyswietlic statystyki'
         show:
           xp:
             item: EXP_BOTTLE
             #Zmienne: {XP}, {NEED}
-            name: '&8» &7XP: &6{XP}/{NEED}'
+            name: '&8Â» &7XP: &6{XP}/{NEED}'
           level:
             item: DIAMOND_PICKAXE
             #Zmienne: {LEVEL}
-            name: '&8» &7Poziom: &6{LEVEL}'
+            name: '&8Â» &7Poziom: &6{LEVEL}'
       dropdisable:
-        name: '&8» &6Drop &8»'  
+        name: '&8Â» &6Drop &8Â»'  
         item: GOLD_SPADE   
       cobble:
-        name: '&8» &6Cobblestone &8»'
+        name: '&8Â» &6Cobblestone &8Â»'
         item: COBBLESTONE
       turbodrop:
-        name: '&8» &6Turbodrop &8»'
+        name: '&8Â» &6Turbodrop &8Â»'
         item: DIAMOND_PICKAXE
         #Zmienne: {TIMELEFT}
         lore:
-        - '&8» &7Pozostaly czas: &6{TIMELEFT}'
-        - '&8» &7Mozesz zakupic na &6WWW'
+        - '&8Â» &7Pozostaly czas: &6{TIMELEFT}'
+        - '&8Â» &7Mozesz zakupic na &6WWW'
         
       statusON:
-      - '&8» &7Aktywny: &aTak'
-      - '&8» &7Kliknij, aby zmienic'
+      - '&8Â» &7Aktywny: &aTak'
+      - '&8Â» &7Kliknij, aby zmienic'
       statusOFF:
-      - '&8» &7Aktywny: &cNie'
-      - '&8» &7Kliknij, aby zmienic'
+      - '&8Â» &7Aktywny: &cNie'
+      - '&8Â» &7Kliknij, aby zmienic'
       active: '&aTak'
       disable: '&cNie'
       
@@ -121,7 +121,7 @@ drops:
     xp: 7
     fortune: true
     #{PLAYER}, {XP}, {AMOUNT}
-    message: '&8» &7Wydropiles &bDiament &7(&6{AMOUNT}szt&7) &6+{XP}'
+    message: '&8Â» &7Wydropiles &bDiament &7(&6{AMOUNT}szt&7) &6+{XP}'
     biome: []
     height:
       minY: 0
