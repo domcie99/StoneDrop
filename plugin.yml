@@ -1,0 +1,13 @@
+name: StoneDrop
+main: tyrangames.stonedrop
+version: 0.1
+author: TyranGames
+commands:
+  drop:
+    description: Drop menu
+  turbodrop:
+    description: Turbodrop for player
+  cobble: 
+    description: ON/OFF Cobblestone
+  cobblestone: 
+    description: ON/OFF Cobblestone
